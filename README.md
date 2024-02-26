@@ -79,12 +79,12 @@ then Run git clone https://github.com/joshdevkit/laravel-app.git
 
 type the each command : 
 composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate:fresh --seed
-php artisan migrate:fresh --seed --seeder=UserSeeder
-php artisan serve
-localhost:8000
+cp .env.example .env <br>
+php artisan key:generate <br>  
+php artisan migrate:fresh --seed <br>
+php artisan migrate:fresh --seed --seeder=UserSeeder <br>
+php artisan serve <br>
+localhost:8000 <br>
 
 
 Thanks
