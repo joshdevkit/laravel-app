@@ -64,3 +64,29 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+CLONE:
+install composer and nodejs
+
+download the zip
+
+open vs code / cmd as admin or choose the directory where you extracted the files
+
+then Run git clone https://github.com/joshdevkit/laravel-app.git
+
+type the each command : 
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate:fresh --seed
+php artisan migrate:fresh --seed --seeder=UserSeeder
+php artisan serve
+localhost:8000
+
+
+Thanks
+
+
